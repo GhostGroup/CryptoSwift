@@ -10,6 +10,7 @@ let package = Package(
   products: [
     .library(
       name: "CryptoSwift",
+      type: .dynamic,
       targets: ["CryptoSwift"]
     )
   ],
